@@ -12,14 +12,22 @@ body {
     margin: 0;
     background: darkgreen;
     font-family: 'arial';
-    padding: 30px
+    padding: 15px
+}
+footer {
+    clear: both;
 }
 .centertext {
     text-align: center;
 }
 h1 {
     clear: both;
-    margin: 0;
+    margin: 0px;
+    color: greenyellow;
+}
+h2 {
+    clear: both;
+    margin: 0px;
     color: greenyellow;
 }
 ul {
@@ -29,15 +37,18 @@ ul {
 li {
     list-style: none;
 }
-.col1 {
+.col {
+    border-radius: 5px;
     float: left;
-    padding: 20px;
-    margin: 15px;
     background: rgb(2, 77, 2);
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
 }
-.rol1 {
+.rol {
     margin: 0;
     padding: 10px;
 }
+
 
 
