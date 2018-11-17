@@ -1,6 +1,4 @@
-.text-center {
-    text-align: center;
-}
+/*
 #title{
     height: 100%;
     background-color: lightblue;
@@ -9,4 +7,20 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
+}*/
+body {
+    background: darkgreen;
+    font-family: 'arial';
+    padding: 30px
 }
+.centertext {
+    text-align: center;
+}
+h1 {
+    color: greenyellow;
+}
+ul {
+    background: green;
+    padding: 20px;
+}
+
