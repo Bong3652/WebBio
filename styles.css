@@ -8,7 +8,7 @@ html,body{
     margin: 0;
     padding: 0;
 }*/
-body {
+/*body {
     margin: 0;
     background: darkgreen;
     font-family: 'arial';
@@ -49,6 +49,36 @@ li {
     margin: 0;
     padding: 10px;
 }
+.green {
+    background: green;
+}*/
+body {
+    background: black;
+    color: rgb(22, 175, 22);
+}
+body a {
+    color: green;
+}
+footer a {
+    color: green;
+}
+.centertext {
+    text-align: center;
+}
+.card {
+    margin: 15px;
+    padding: 10px;
+    background: rgb(44, 44, 44);
+}
+.row {
+    margin: 5px;
+}
+h1 {
+    background: rgb(44, 44, 44);
+    border-radius: 10px;
+    margin: 10px 250px 0px 250px;
+}
+
 
 
 

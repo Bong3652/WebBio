@@ -1,57 +1,121 @@
 <!doctype html>
 <html>
     <head>
-        <link href="styles.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
         <title>Personalized!</title>
     </head>
     <body>
+        <header class="navbar-inverse">
+            <div class="container">
+                <!-- Image and text -->
+                <nav class="navbar navbar-light green">
+                    <a class="navbar-brand">
+                    <img src="sources/P.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Personalized
+                    </a>
+                    <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>
+            </div>
+        </header>
         <h1 class="centertext">Quick Start!</h1>
-        <div class="row">
-            <div class="col">
-                <h2>Dailies</h2>
-                    <ul>
-                        <a href="https://outlook.office.com/owa/?realm=purdue.edu&exsvurl=1&ll-cc=1033&modurl=0"> Outlook</a><br>
-                        <a href="https://mail.google.com/mail/u/0/"> Gmail</a><br>
-                        <a href="https://drive.google.com/drive/u/0/my-drive"> Google Drive</a><br>
-                        <a href="https://www.reddit.com/r/PuzzleAndDragons/comments/9xo4hr/shitpost_eggcellent_blessings_5_farming_team/"> Pad News Reddit</a><br>
-                        <a href="https://github.com/"> GitHub</a>
-                    </ul>
+        <div class="container">
+            <div class="row">
+                <div class="card col" style="width: 18rem;">
+                    <img class="card-img-top" src="sources/time.jpg" alt="Card image cap">
+                    <div class="container">
+                        <div class="card-body">
+                            <h5 class="card-title">Dailies</h5>
+                            <p class="card-text">
+                                Websites Yong Kai likes to check on a daliy bases
+                                <ul>
+                                    <a href="https://www.office.com/?auth=2" target="_blank"> Office365</a><br>
+                                    <a href="https://mail.google.com/mail/u/0/" target="_blank"> Gmail</a><br>
+                                    <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank"> Google Drive</a><br>
+                                    <a href="https://www.reddit.com/r/PuzzleAndDragons/comments/9xo4hr/shitpost_eggcellent_blessings_5_farming_team/" target="_blank"> Pad News Reddit</a><br>
+                                    <a href="https://github.com/"> GitHub</a>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Open all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col" style="width: 18rem;">
+                    <img class="card-img-top" src="sources/purdue.jpg" alt="Card image cap">
+                    <div class="container">
+                        <div class="card-body">
+                            <h5 class="card-title">School</h5>
+                            <p class="card-text">
+                                Yong Kai's not so favorite school
+                                <ul>
+                                    <a href="https://mycourses.purdue.edu/" target="_blank"> Blackboard</a><br>
+                                    <a href="https://wl.mypurdue.purdue.edu/c/portal/login" target="_blank"> MyPurdue</a><br>
+                                    <a href="https://mypurdueplan.purdue.edu" target="_blank"> MyPurduePlan</a>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Open all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col" style="width: 18rem;">
+                    <img class="card-img-top" src="sources/training.jpg" alt="Card image cap">
+                    <div class="container">
+                        <div class="card-body">
+                            <h5 class="card-title">Practice Regimen</h5>
+                            <p class="card-text">
+                                Yong Kai's not so favorite school
+                                <ul>
+                                    <a href="https://codingbat.com" target="_blank"> CodingBat</a><br>
+                                    <a href="https://www.typingclub.com/sportal/" target="_blank"> TypingClub</a><br>
+                                    <a href="https://leetcode.com" target="_blank"> Leetcode</a>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Open all</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <h2>School</h2>
-                    <ul>
-                        <a href="https://mycourses.purdue.edu/"> Blackboard</a><br>
-                        <a href="https://wl.mypurdue.purdue.edu/c/portal/login"> MyPurdue</a><br>
-                        <a href="https://mypurdueplan.purdue.edu"> MyPurduePlan</a>
-                    </ul>
-            </div>
-            <div class="col">
-                <h2>Practice Regimen</h2>
-                    <ul>
-                        <a href="https://codingbat.com"> CodingBat</a><br>
-                        <a href="https://www.typingclub.com/sportal/"> TypingClub</a><br>
-                        <a href="https://leetcode.com"> Leetcode</a>
-                    </ul>
-            </div>
-            <div class="col">
-                <h2>Intertainment</h2>
-                    <ul>
-                        <a href="https://youtube.com"> Youtube</a><br>
-                        <a href="http://na.op.gg/"> League Data</a>
-                    </ul>
-            </div>
-            <div class="col">
-                <h2>Coding Resources</h2>
-                    <ul>
-                        <a href="https://pixabay.com/"> Pixabay</a><br>
-                        <a href="https://textcraft.net/"> TextCraft</a><br>
-                        <a href="https://getbootstrap.com/">BootStrap</a>
-                    </ul>
+            <div class="row">
+                <div class="card col" style="width: 18rem;">
+                    <img class="card-img-top" src="sources/rabbit.jpg" alt="Card image cap">
+                    <div class="container">
+                        <div class="card-body">
+                            <h5 class="card-title">Intertainment</h5>
+                            <p class="card-text">
+                                It's fun is it not for everyone but it's for Yong Kai
+                                <ul>
+                                    <a href="https://youtube.com" target="_blank"> Youtube</a><br>
+                                    <a href="http://na.op.gg/" target="_blank"> League Data</a>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Open all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col" style="width: 18rem;">
+                    <img class="card-img-top" src="sources/future.jpg" alt="Card image cap">
+                    <div class="container">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding Resources</h5>
+                            <p class="card-text">
+                                Time to go full on try hard. Here's some coding resources to help with the grind
+                                <ul>
+                                    <a href="https://pixabay.com/" target="_blank"> Pixabay</a><br>
+                                    <a href="https://textcraft.net/" target="_blank"> TextCraft</a><br>
+                                    <a href="https://getbootstrap.com/" target="_blank">BootStrap</a>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary">Open all</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
-            <h3 class="centertext"><a href="file:///Users/apple/Desktop/Bio/MyBio.html"> About me</a></h2>
+            <h4 class="centertext"><a href="file:///Users/apple/Desktop/Bio/MyBio.html"> About me</a></h4>
         </footer>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>  
