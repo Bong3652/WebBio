@@ -82,6 +82,9 @@ h1 {
 canvas {
     padding: 15px;
 }
+.hide {
+    display: none;
+}
 
 
 
