@@ -1,6 +1,12 @@
-document;
+//let ninjaCanvas = document.getElementsByClassName("p5Canvas");
 let animateAttack = [];
+let animateIdle = [];
+let animateRun = [];
+let animateCurrent = [];
+let ninjaCanvas;
 let attack;
+var frame;
+var bgcolor;
 
 function preload() {
     let img;
@@ -12,19 +18,38 @@ function preload() {
         }
         animateAttack.push(img);
     }
+    for (let index = 1; index < 9; index++) {
+        img = loadImage("NinjaPixelArt/Idle/NinjaIdle_0" + index + ".png");
+        animateIdle.push(img);
+    }
+    for (let index = 1; index < 9; index++) {
+        img = loadImage("NinjaPixelArt/Run/NinjaRun_0" + index + ".png");
+        animateRun.push(img);
+    }
     //attack = new sprite(1, animateAttack)
 }
 
 function setup() {
-    createCanvas(200, 200);
+    ninjaCanvas = createCanvas(100, 100);
+    bgcolor = color(50);
+    animateCurrent = animateIdle;
+    frame = 0;
+    frameRate(10);
+    ninjaCanvas.mousePressed(changeColorandAnimation);
 }
-
+function changeColorandAnimation() {
+    //nbgcolor = color(50);
+    animateCurrent = animateAttack;
+    //frame = frameCount % 50;
+}
 function draw() {
-    background(999);
+    background(bgcolor);
     //attack.show;
     //attack.animate;
-    image(animateAttack[frameCount % 50], 50, 50);
+    image(animateCurrent[frameCount % animateCurrent.length], 25, 25);
+    //image(animateCurrent[frameCount], 25, 25);
 }
+
 
 
 

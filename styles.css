@@ -52,6 +52,7 @@ li {
 .green {
     background: green;
 }*/
+
 body {
     background: black;
     color: rgb(22, 175, 22);
@@ -77,6 +78,9 @@ h1 {
     background: rgb(44, 44, 44);
     border-radius: 10px;
     margin: 10px 250px 0px 250px;
+}
+canvas {
+    padding: 15px;
 }
 
 
