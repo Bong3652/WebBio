@@ -12,18 +12,18 @@ function preload() {
     let img;
     for (let index = 1; index < 51; index++) {
         if (index < 10) {
-            img = loadImage("NinjaPixelArt/Attack/NinjaAttack_0" + index + ".png");
+            img = loadImage("../NinjaPixelArt/Attack/NinjaAttack_0" + index + ".png");
         } else {
-            img = loadImage("NinjaPixelArt/Attack/NinjaAttack_" + index + ".png");
+            img = loadImage("../NinjaPixelArt/Attack/NinjaAttack_" + index + ".png");
         }
         animateAttack.push(img);
     }
     for (let index = 1; index < 9; index++) {
-        img = loadImage("NinjaPixelArt/Idle/NinjaIdle_0" + index + ".png");
+        img = loadImage("../NinjaPixelArt/Idle/NinjaIdle_0" + index + ".png");
         animateIdle.push(img);
     }
     for (let index = 1; index < 9; index++) {
-        img = loadImage("NinjaPixelArt/Run/NinjaRun_0" + index + ".png");
+        img = loadImage("../NinjaPixelArt/Run/NinjaRun_0" + index + ".png");
         animateRun.push(img);
     }
     //attack = new sprite(1, animateAttack)
